@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="social">
+        <div>
+            <img src="../static/linkedin-icon.svg" />
+        </div>
+        <div>
+            <img src="../static/github-icon.svg" />
+        </div>
+    </div>
+    <div class="content">
+        <h1>Hi, I'm {{name}}</h1>
+        <h4>Python Developer</h4>
+        <p>Knowledge of Python web frameworks and Basic understanding of front-end technologies</p>
+        <div class="contact-btn">
+            <button>contact me<img src="../static/contact-logo.svg"></button>
+        </div>
+    </div>
+    <div class="profile-img">
+        <img src="../static/Aruna.jpg">
+    </div>
+</div>
+
+{% endblock %}

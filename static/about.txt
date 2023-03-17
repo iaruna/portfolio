@@ -1,0 +1,18 @@
+Hi, my name is Aruna, and I have completed my B.Tech in Electronics and Telecommunication Engineering. 
+        I am passionate about technology and have developed a strong knowledge base in various computer programming
+        skills, including SQL, basic front-end technologies, Python, and Flask framework libraries like Pandas and NumPy.
+        I am also proud to have created a portfolio website that showcases my skills and expertise.
+
+        As for my background, I have always been interested in exploring how technology can solve real-world problems. 
+        My education has provided me with a solid foundation in electronics and telecommunication, and my experience with
+        computer programming has allowed me to develop solutions that are both efficient and effective.
+        
+        I have worked on various programming projects that have honed my skills in data management, analysis, and
+        visualization. Additionally, I have developed a keen eye for detail and design, which is reflected in the user
+        interfaces I create.
+        
+        In my spare time, I enjoy exploring new technologies and programming languages, participating in hackathons,
+        and working on personal projects that allow me to experiment with different techniques and methodologies.
+        
+        Overall, I am excited about the opportunities that technology offers and am eager to apply my skills and 
+        knowledge to create innovative solutions that can positively impact the world.
