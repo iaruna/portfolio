@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+body {
+    background-color: #dfc2f5;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(297.17, 72%, 60%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(193.93, 100%, 67%) 0, transparent 55%);
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -28,12 +35,21 @@
     text-decoration: none;
 }
 
-.container {
+.container-home {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 80%;
-    margin: 100px auto;
+    margin: 50px auto;
+    height:400px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 50px auto;
+    height:400px;
 }
 
 .content {
@@ -101,4 +117,29 @@
 
 .about > h1 {
     margin-bottom: 10px;
+}
+
+.table {
+    line-height: 2;
+    display: grid;
+}
+
+.education {
+    text-align: center;
+    width: inherit;
+}
+
+.education > h1 {
+    margin: auto;
+}
+
+.intouch {
+    display: flex;
+    width: 75%;
+    margin: 0px auto;
+    justify-content: space-evenly;
+}
+
+.form {
+    margin-left: auto;
 }

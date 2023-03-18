@@ -2,21 +2,21 @@
 
 {% block content %}
 
-<div class="container">
+<div class="container-home">
     <div class="social">
         <div>
-            <img src="../static/linkedin-icon.svg" />
+            <a href="https://www.linkedin.com/in/arunaofficial/"><img src="../static/linkedin-icon.svg" /></a>
         </div>
         <div>
-            <img src="../static/github-icon.svg" />
+            <a href="https://github.com/iaruna"><img src="../static/github-icon.svg" /></a>
         </div>
     </div>
     <div class="content">
         <h1>Hi, I'm {{name}}</h1>
-        <h4>Python Developer</h4>
-        <p>Knowledge of Python web frameworks and Basic understanding of front-end technologies</p>
+        <h4>{{position}}</h4>
+        <p>{{intro}}</p>
         <div class="contact-btn">
-            <button>contact me<img src="../static/contact-logo.svg"></button>
+            <button><a href="mailto:arunakumariofficial@gmail.com">contact me<img src="../static/contact-logo.svg"></button>
         </div>
     </div>
     <div class="profile-img">
