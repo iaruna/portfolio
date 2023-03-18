@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+.dark-mode {
+    background-color: #000000;
+    color: white;
+}
+
 body {
     background-color: #dfc2f5;
     background-image: 
@@ -31,7 +36,7 @@ body {
     list-style-type: none;
 }
 .nav-bar > ul > a  {
-    color: #000000;
+    color: #120874;
     text-decoration: none;
 }
 

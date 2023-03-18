@@ -30,7 +30,15 @@
           <a href="/contact">
             <li>Contact</li>
           </a>
-          <div><img src="../static/moon.svg" /></div>
+          <div>
+          <botton onclick="icon()"><img src="../static/moon.svg" /></botton>
+          <script>
+            function icon() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+          </script>
+        </div>
         </ul>
       </nav>
     </header>
