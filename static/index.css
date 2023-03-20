@@ -1,150 +1,155 @@
 * {
-    font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-}
-
-.dark-mode {
-    background-color: #000000;
-    color: white;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #dfc2f5;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(297.17, 72%, 60%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(193.93, 100%, 67%) 0, transparent 55%);
+  background-color: #dfc2f5;
+  background-image: radial-gradient(at 47% 33%, hsl(297.17, 72%, 60%) 0, transparent 59%),
+    radial-gradient(at 82% 65%, hsl(193.93, 100%, 67%) 0, transparent 55%);
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 56px;
 }
 
-.header > a {
-    cursor: pointer;
-    letter-spacing: 1px;
-    color: black;
-    text-decoration: none;
+.header>a {
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
 }
 
-.nav-bar > ul {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
+.nav-bar>ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
 }
-.nav-bar > ul > a  {
-    color: #120874;
-    text-decoration: none;
+
+.nav-bar>ul>a {
+  color: black;
+  text-decoration: none;
 }
 
 .container-home {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
-    margin: 50px auto;
-    height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 50px auto;
+  height: 400px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-    margin: 50px auto;
-    height:400px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 50px auto;
+  height: 400px;
 }
 
 .content {
-    width: 30%;
+  width: 30%;
 }
 
-.content > h1{
-    font-size: 50px;
+.content>h1 {
+  font-size: 50px;
 }
 
-.content > h4 {
-    font-size: 18px;
+.content>h4 {
+  font-size: 18px;
 }
 
-.content > p {
-    font-size:16px;
-    padding: 10px 0px;
-    line-height: 20px;
+.content>p {
+  font-size: 16px;
+  padding: 10px 0px;
+  line-height: 20px;
 }
 
 .profile-img {
-    width: 245px;
+  width: 245px;
 }
 
-.profile-img > img {
-    width: 100%;
-    border-radius: 52% 117% 90% 96%;
+.profile-img>img {
+  width: 100%;
+  border-radius: 52% 117% 90% 96%;
 }
 
-.contact-btn > button {
-    background-color: #537FE7;
-    color: white;
-    text-transform: capitalize;
-    padding: 15px;
-    border: none;
-    border-radius: 6px;
-    text-align: center;
-    gap: 3px;
-    display: flex;
-    font-size: 14px;
-    margin-top: 10px
+.contact-btn {
+  background-color: #537fe7;
+  text-transform: capitalize;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.contact-btn>a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 2px;
 }
 
 .social {
-    padding-top: 15px;
-    line-height: 45px;
+  padding-top: 15px;
+  line-height: 45px;
 }
 
 .footer-container {
-    position: absolute;
-    width: 100%;
-    margin-top: 250px;
-    font-size: small;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 3px 0px;
+  position: absolute;
+  width: 100%;
+  margin-top: 250px;
+  font-size: small;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 3px 0px;
 }
 
 .about {
-    text-align: center;
-    width: inherit;
+  text-align: center;
+  width: inherit;
 }
 
-.about > h1 {
-    margin-bottom: 10px;
+.about>h1 {
+  margin-bottom: 10px;
 }
 
 .table {
-    line-height: 2;
-    display: grid;
+  line-height: 2;
+  display: grid;
 }
 
 .education {
-    text-align: center;
-    width: inherit;
+  text-align: center;
+  width: inherit;
 }
 
-.education > h1 {
-    margin: auto;
+.education>h1 {
+  margin: auto;
 }
 
 .intouch {
-    display: flex;
-    width: 75%;
-    margin: 0px auto;
-    justify-content: space-evenly;
+  /*contact page */
+  display: flex;
+  width: 75%;
+  margin: 0px auto;
+  justify-content: space-evenly;
+}
+
+.links {
+  list-style: none;
 }
 
 .form {
-    margin-left: auto;
+  margin-left: auto;
 }

@@ -1,27 +1,25 @@
-{% extends "layout.html" %}
-
-{% block content %}
+{% extends "layout.html" %} {% block content %}
 
 <div class="container-home">
-    <div class="social">
-        <div>
-            <a href="https://www.linkedin.com/in/arunaofficial/"><img src="../static/linkedin-icon.svg" /></a>
-        </div>
-        <div>
-            <a href="https://github.com/iaruna"><img src="../static/github-icon.svg" /></a>
-        </div>
+  <div class="social">
+    <div>
+      <a href="https://www.linkedin.com/in/arunaofficial/"><img src="../static/linkedin-icon.svg" /></a>
     </div>
-    <div class="content">
-        <h1>Hi, I'm {{name}}</h1>
-        <h4>{{position}}</h4>
-        <p>{{intro}}</p>
-        <div class="contact-btn">
-            <button><a href="mailto:arunakumariofficial@gmail.com">contact me<img src="../static/contact-logo.svg"></button>
-        </div>
+    <div>
+      <a href="https://github.com/iaruna"><img src="../static/github-icon.svg" /></a>
     </div>
-    <div class="profile-img">
-        <img src="../static/Aruna.jpg">
-    </div>
+  </div>
+  <div class="content">
+    <h1>Hi, I'm {{name}}</h1>
+    <h4>{{position}}</h4>
+    <p>{{intro}}</p>
+    <button class="contact-btn">
+      <a href="mailto:arunakumariofficial@gmail.com">contact me<img src="../static/contact-logo.svg" /></a>
+    </button>
+  </div>
+  <div class="profile-img">
+    <img src="../static/Aruna.jpg" />
+  </div>
 </div>
 
 {% endblock %}
