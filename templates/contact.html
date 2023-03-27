@@ -2,29 +2,29 @@
 
 {% block content %}
 <div class="container">
-    <div class="intouch">
-        <div class="links">
-            <h1>Contact Me</h1>
-            <li><a href="https://www.linkedin.com/in/arunaofficial/"><img src="../static/linkedin-icon.svg" /></a> Let's
-                Connect on Linkedin</li>
-            <li><a href="mailto:arunakumariofficial@gmail.com"><img src="../static/Email.svg" /></a> Reply time within a
-                day or Everyday</li>
-            <li><a href="https://github.com/iaruna"><img src="../static/github-icon.svg" /></a> Let's Connect on Github
-            </li>
-        </div>
-
-        <div class="form">
+    <form>
+        <div class="contact-card">
             <h1>Get In Touch</h1>
-            <form>
-                <label for="name">Name:</label><br><input type="text" id="name" name="fullname" autofocus> <br>
-                <label for="email">Email:</label><br><input type="email" id="email" name="email" autocomplete="off"><br>
-                <label for="subject">Subject:</label><br><input type="text" id="subject" name="subject"
-                    autocomplete="off"><br>
-                <lable for="message">Message:</lable><br><textarea name="message">Your message</textarea>
+            <div class="contact-inpt">
+                <div class="form-inpt">
+                    <label for="name">Full Name: </label>
+                    <input id="name" type="text" placeholder="full name">
+                </div>
+                <div class="form-inpt">
+                    <label for="email"> Email: </label>
+                    <input id="email" type="email" placeholder="abc@gmail.com">
+                </div>
+                <div class="form-inpt">
+                    <label for="subject"> Subject: </label>
+                    <input id="subject" type="text" placeholder="job, teamwork">
+                </div>
+                <div class="form-inpt">
+                    <label for="textarea">Message:</label>
+                    <textarea id="textarea" placeholder="Type your message..."></textarea>
+                </div>
                 <button><a href="mailto:arunakumariofficial@gmail.com">Submit</a></button>
-            </form>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
-
 {% endblock %}
