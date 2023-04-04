@@ -5,8 +5,7 @@
 }
 
 body {
-  background-color: #FDFAF6;
-  /* background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%); */
+  background-color: #fff;
   height: 100vh;
   overflow: auto;
 }
@@ -78,11 +77,12 @@ body {
 
 .profile-img>img {
   width: 100%;
-  border-radius: 52% 117% 90% 96%;
+  /* border-radius: 52% 117% 90% 96%; */
+  border-radius: 85% 105% 90% 96%;
 }
 
 .contact-btn {
-  background-color: #0044ff;
+  background-color: #1d9157;
   text-transform: capitalize;
   padding: 15px;
   border: none;
@@ -94,7 +94,7 @@ body {
 }
 
 .contact-btn:hover {
-  background-color: #0036c9;
+  background-color: #cf0643;
 }
 
 .contact-btn>a {
@@ -114,7 +114,7 @@ body {
   bottom: 0px;
   width: 100%;
   font-size: small;
-  border-top: 1px solid rgb(165, 0, 0);
+  border-top: 1px solid rgb(58, 54, 54);
   padding: 10px 0px;
   text-align: center;
 }
@@ -129,14 +129,15 @@ body {
   margin-bottom: 10px;
 }
 
-.table {
-  line-height: 2;
-  display: grid;
-}
-
 .education {
   text-align: center;
+}
+
+.education>ul {
+  text-align: center;
   width: inherit;
+  list-style-type: none;
+  line-height: 2;
 }
 
 /*contact page */
@@ -231,4 +232,18 @@ body {
 .contact-inpt>button>a {
   text-decoration: none;
   color: white;
+}
+
+.skill>h1 {
+  text-align: center;
+  line-height: 2;
+}
+
+.skill>ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  line-height: 100px;
 }
